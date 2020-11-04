@@ -33,7 +33,7 @@ public class CelsiusTest extends TestCase{
         int endIndex = string.indexOf(ending);
 
         // (Hint: what is the length of the middle of the string?)
-        assertEquals(string.substring(0, endIndex), beginning);
+        assertEquals(string.substring(1, endIndex), beginning);
     }
 
     public void testCelsiusToCelsius()
